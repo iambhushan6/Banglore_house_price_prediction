@@ -1,6 +1,6 @@
 
 from flask import Flask,render_template,request,jsonify,redirect
-# import util
+import os
 
 
 import jinja2
@@ -82,4 +82,4 @@ def predict():
 #     return response
 
 # print(__location)
-app.run(debug=True)
+app.run(threaded=True, port = int(os.environ.get('PORT', 5000)))
