@@ -82,4 +82,4 @@ def predict():
 #     return response
 
 # print(__location)
-app.run(debug=True)
+app.run(threaded=True, port = int(os.environ.get('PORT', 5000)))
