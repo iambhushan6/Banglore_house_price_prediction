@@ -4,6 +4,7 @@ numpy==1.19.1
 pandas
 scikit-learn
 matplotlib
+os
 Click==7.0
 gunicorn==19.9.0
 itsdangerous==1.1.0
