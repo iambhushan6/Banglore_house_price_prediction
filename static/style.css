@@ -81,9 +81,7 @@ h1{
     align:center;
     margin-right: 10px;
 }
-/* profile{
-    display: inline-block;
-    padding: 20%;
-    height:fit-content;
-    background-color: blanchedalmond;
-} */
+.profile{
+    width: 100vw;
+    text-align: center;
+}
